@@ -11,3 +11,8 @@ it('renders without crashing', ()=>{
   const basseballHeader = wrapper.queryByText(/baseball/i)
   expect(basseballHeader).toBeInTheDocument();
 })
+it('containes countStrike and countBall', ()=>{
+  const wrapper = rtl.render(<App />)
+  const countElement = wrapper.queryByText(/countStrike/i)
+    expect(countElement).toBeInTheDocument()
+})
