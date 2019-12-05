@@ -7,5 +7,7 @@ afterEach(rtl.cleanup);
 
 it('renders without crashing', ()=>{
   const wrapper = rtl.render(<App />)
-  wrapper.debug();
+  // wrapper.debug();
+  const basseballHeader = wrapper.queryByText(/baseball/i)
+  expect(basseballHeader).toBeInTheDocument();
 })
