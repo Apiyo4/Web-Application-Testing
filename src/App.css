@@ -2,4 +2,45 @@
   text-align: center;
 }
 
-
+table{
+  height: 100px;
+  width: 40%;
+  margin: auto;
+  font-size: 3.4rem;
+  padding-bottom: 5%;
+}
+h1, h2{
+  font-size: 3.4rem;
+}
+button{
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 15px;
+  color: white;
+  border-radius: 6%;
+}
+.green{
+  background: green;
+}
+.blue{
+  background: blue;
+}
+.red{
+  background: red;
+}
+.orange{
+  background: orange;
+}
+.links{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+a{
+  text-decoration: none;
+  color: #A9A9A9;
+}

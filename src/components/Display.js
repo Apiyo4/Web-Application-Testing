@@ -1,9 +1,10 @@
 import React from 'react';
 
 export default function Display(props){
-    console.log(props)
+    // console.log(props)
     return(
         <div>
+            <h2>Round : {props.round}</h2>
             <table>
                 <tr>
                     <th>Strike </th>

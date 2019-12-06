@@ -8,5 +8,5 @@ afterEach(rtl.cleanup);
 
 it('renders without crashing', ()=>{
     const wrapper = rtl.render(<DashBoard />);
-    wrapper.debug();
+    // wrapper.debug();
 })
